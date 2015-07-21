@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<script type="text/javascript" src="js/jQuery1.7.1.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<title>简历主页</title>
+</head>
+<script type="text/javascript">
+
+</script>
+<body>
+	<div class="wrap">
+    <!--网页头部-->
+    	<div class="header">
+        	<img class="img" src="images/logo.png"/>
+            <div class="title">我的简历</div>
+        </div>
+    <!--网页主体-->
+   	 	<div class="mainBody">
+        <!--网页主体的左半部分-->
+        	<div class="left">
+            	<img src="images/01.jpg" class="self"/>
+            <!--技术鉴定-->
+            <div id="technologyDiv" class="technology">
+              <div class="tecDiv">
+                <p class="checkTec">技术鉴定</p>
+                <p class="checkTech">All things in their being are good for something.</p>
+              </div>
+             <table border="0">
+               <tr>
+                 <td>
+                 HTML<br/>
+                 <progress class="progress" max="100" value="85">
+                 </progress>
+                 </td>
+                <td>
+                 CSS<br/>
+                 <progress class="progress" max="100" value="85">
+                 </progress>
+                 </td>
+               </tr>
+               <tr>
+                 <td>
+                 JavaScript<br/>
+                 <progress class="progress" max="100" value="75">
+                 </progress>
+                 </td>
+                <td>
+                 JQuery<br/>
+                 <progress class="progress" max="100" value="75">
+                 </progress>
+                 </td>
+               </tr>
+               <tr>
+                <td>
+                 Java<br/>
+                 <progress class="progress" max="100" value="50">
+                 </progress>
+                 </td>
+                 <td>
+                 Ajax<br/>
+                 <progress class="progress" max="100" value="50">
+                 </progress>
+                 </td>
+               </tr>
+               <tr>
+                 <td>
+                 FireBug、Debug<br/>
+                 <progress class="progress" max="100" value="50">
+                 </progress>
+                 </td>
+                 <td>
+                 Dreamweaver<br/>
+                 <progress class="progress" max="100" value="50">
+                 </progress>
+                 </td>
+               </tr>
+               <tr>
+                 <td colspan="2">
+                   <progress class="progress" max="100" value="100">
+                 </progress>
+                 </td>
+               </tr>
+             </table>
+            </div>
+            <!--教育背景-->
+            	<div id="education" class="education" style="display:none;">
+                	<div class="educationLeft">
+                    	<div class="first">2012年9月1日~至今</div>
+                        <canvas id="canvas"></canvas>
+                        <div class="first" style="margin-top:0px;">2013年9月~至今</div>
+                    </div>
+                    <div class="educationRight">
+                      <table>
+                      	<tr>
+                        	<td><h3>学校名称：</h3></td>
+                            <td><p>西安邮电大学</p></td>
+                        </tr>
+                        <tr>
+                        	<td><h3>专业名称：</h3></td>
+                            <td><p>信息与计算科学</p></td>
+                        </tr>
+                        	<tr>
+                        	<td><h3 style="margin-top:80px;">学校名称：</h3></td>
+                            <td><p style="margin-top:80px;">西安微易码科技有限公司</p></td>
+                        </tr> 
+                        <tr>
+                        	<td><h3>主教科目：</h3></td>
+                            <td><p>C语言、数据结构、java及j2EE软件开发技术</p></td>
+                        </tr>
+                      </table>
+                    </div>
+                </div>
+            </div>
+            <!--网页主体的右半部分-->
+            <div class="right">
+            	<ul class="ul">
+                	<li class="li"><a href="personMsg.html">个人简介</a></li>
+                    <li class="li"><a id="tecknology" onclick="technologyClick();">技术鉴定</a></li>
+                    <li class="li" id= "educational"><a onclick="educationClick();">教育背景</a></li>
+                    <li class="li"><a href="experice.html">项目经验</a></li>
+                    <li class="li"><a onClick="introClick();">自我介绍</a>
+                      <ul id="introduction" style="display:none">
+                        	<li class="liContent">诚实守信、吃苦耐劳、适应能力较强；</li>
+                            <li class="liContent">具有较强的自学能力和技术钻研能力；</li>
+                            <li class="liContent">热爱软件编程、希望投身于软件行业；</li>
+                            <li class="liContent">有上进心，有时间观念做事有耐性，有恒心，对人有礼貌；</li>
+                            <li class="liContent">对工作认真负责、善于沟通、有良好的团队合作精神，集体荣誉感强。</li>
+                        </ul>
+                   <!-- <details>
+                     	<summary><a>自我介绍</a></summary>
+                        <ul>
+                        	<li class="liContent">诚实守信、吃苦耐劳、适应能力较强；</li>
+                            <li class="liContent">具有较强的自学能力和技术钻研能力；</li>
+                            <li class="liContent">热爱软件编程、希望投身于软件行业；</li>
+                            <li class="liContent">有上进心，有时间观念做事有耐性，有恒心，对人有礼貌；</li>
+                            <li class="liContent">对工作认真负责、善于沟通、有良好的团队合作精神，集体荣誉感强。</li>
+                        </ul>
+                     </details>-->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	
+</body>
+</html>
